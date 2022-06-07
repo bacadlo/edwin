@@ -7,7 +7,7 @@ const navBar = {
 const mainBody = {
   gradientColors: "#4484ce, #1ad7c0, #ff9b11, #9b59b6, #ff7f7f, #ecf0f1",
   firstName: "Edwin",
-  middleName: "",
+  middleName: "O.",
   lastName: "Ngoche",
   message: " Passionate about improving society through computer systems. ",
   icons: [
@@ -22,14 +22,6 @@ const mainBody = {
     {
       image: "fa-twitter",
         url: "https://twitter.com/devEdd_",
-    },
-    {
-      image: "fa-facebook",
-        url: "https://www.facebook.com/edwin.ngoche.56/",
-    },
-    {
-      image: "fa-instagram",
-        url: "https://www.instagram.com/bacadlo/",
     },
   ],
 };
@@ -54,8 +46,8 @@ const about = {
   imageLink: require("../editable-stuff/DoubleEd.jpg"),
   imageSize: 375,
   message:
-    "My name is Edwin Ngoche. I am a Software Engineering student at St. Cloud State University. I enjoy problem solving and learning the necessary technical skills that can enable me to provide accurate solutions. In my free time I love taking photos and manipulaing them on Adobe Photoshop and Lightroom.You can check some of my work using the instagram link provided. I also love designing and making things look aesthetically pleasing through symmetry.",
-  //resume: require("../editable-stuff/resume.pdf"),
+    "My name is Edwin Ngoche. I am a Software Engineering major at St. Cloud State University.I enjoy problem solving and passionate about technology with the ability to leverage full-stack knowledge and experience to build interactive websites to scale. I am a quick and hardworking learner open to opportunities to contribute, improve, and learn new skills.",
+  resume: require("../editable-stuff/resume.pdf"),
 };
 
 // PROJECTS SECTION
@@ -67,7 +59,7 @@ const repos = {
   show: true,
   heading: "Recent Projects",
   gitHubUsername: "bacadlo", //i.e."johnDoe12Gh"
-  reposLength: 4,
+  reposLength: 6,
   specificRepos: [],
 };
 
@@ -79,12 +71,12 @@ const leadership = {
     "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vitae auctor eu augue ut lectus arcu bibendum at varius. Libero justo laoreet sit amet cursus sit amet. Imperdiet dui accumsan sit amet nulla facilisi morbi. At auctor urna nunc id. Iaculis urna id volutpat lacus laoreet non curabitur gravida. Et magnis dis parturient montes nascetur ridiculus mus mauris. In nisl nisi scelerisque eu ultrices vitae auctor. Mattis nunc sed blandit libero volutpat sed cras ornare. Pulvinar neque laoreet suspendisse interdum consectetur libero.",
   images: [
     { 
-          img: require("../editable-stuff/DoubleEd.jpg"), 
+      img: require("../editable-stuff/DoubleEd.jpg"), 
       label: "First slide label", 
       paragraph: "Nulla vitae elit libero, a pharetra augue mollis interdum." 
     },
     { 
-        img: require("../editable-stuff/DoubleEd.jpg"), 
+      img: require("../editable-stuff/DoubleEd.jpg"), 
       label: "Second slide label", 
       paragraph: "Nulla vitae elit libero, a pharetra augue mollis interdum." 
     },
@@ -101,16 +93,17 @@ const skills = {
   heading: "Skills",
   hardSkills: [
     { name: "C++", value: 80 },
-    { name: "PHP", value: 65 },
-    { name: "SQL", value: 60 },
-    { name: "JavaScript", value: 70 },
-    { name: "React", value: 65 },
-    { name: "HTML/CSS", value: 65 },
-    { name: "JAVA", value: 60}
+    { name: "PHP", value: 90 },
+    { name: "MySQL", value: 80 },
+    { name: "JavaScript", value: 90 },
+    { name: "React", value: 90 },
+    { name: "React-Native", value: 90 },
+    { name: "HTML/CSS", value: 99 },
+    { name: "Cloud Computing(GCP)", value: 70 },
   ],
   softSkills: [
-    { name: "Problem Solving", value: 90 }, 
-      { name: "Creativity", value: 85 },
+    { name: "Problem Solving", value: 90 },
+    { name: "Creativity", value: 85 },
     { name: "Communication", value: 85 },
     { name: "Critical Thinking", value: 85 },
     { name: "Patience", value: 75 },
@@ -125,7 +118,7 @@ const getInTouch = {
   show: true,
   heading: "Get In Touch",
   message:
-    "I'm actively looking for a Software Engineering internship for summer 2021! If you have any questions, or if you just want to say hi, please feel free to email me or contact me through the provided social media platforms. Thanks!",
+    "I'm actively looking for an internship! If you have any questions, or if you just want to say hi, please feel free to email me. Thanks!",
     email: "eongoche@go.stcloudstate.edu",
    
   

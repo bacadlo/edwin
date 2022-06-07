@@ -1,7 +1,7 @@
 {
   "name": "developers-portfolio",
   "description": "A personal static website/portfolio hosted with GitHub Pages.",
-  "homepage": "https://edwin.github.io/home",
+  "homepage": "https://bacadlo.github.io/edwin",
   "version": "2.0.0",
   "private": true,
   "author": {
@@ -10,21 +10,21 @@
     "url": "https://github.com/bacadlo"
   },
   "dependencies": {
-    "axios": "^0.19.2",
-    "bootstrap": "^4.5.2",
-    "gh-pages": "^2.2.0",
-    "jquery": "^3.5.1",
-    "node-sass": "^4.14.1",
-    "prop-types": "^15.7.2",
-    "react": "^16.14.0",
+    "axios": "^0.27.2",
+    "bootstrap": "^4.6.0",
+    "gh-pages": "^4.0.0",
+    "jquery": "^3.6.0",
+    "node-sass": "^7.0.1",
+    "prop-types": "^15.8.1",
+    "react": "^17.0.2",
     "react-bootstrap": "^1.4.0",
-    "react-dom": "^16.14.0",
-    "react-loading-skeleton": "^2.1.1",
-    "react-router": "^5.2.0",
-    "react-router-dom": "^5.2.0",
-    "react-scripts": "^3.4.4",
+    "react-dom": "^17.0.2",
+    "react-loading-skeleton": "^3.1.0",
+    "react-router": "^5.3.3",
+    "react-router-dom": "^5.3.3",
+    "react-scripts": "^5.0.1",
     "react-typist": "^2.0.5",
-    "typescript": "^3.9.7"
+    "typescript": "^4.7.2"
   },
   "scripts": {
     "predeploy": "npm run build",
