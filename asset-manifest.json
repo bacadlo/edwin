@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/edwin/static/css/main.fc499bf9.css",
+    "main.js": "/edwin/static/js/main.6e8dfbeb.js",
+    "static/media/DoubleEd.jpg": "/edwin/static/media/DoubleEd.85121f8b29539eba10d9.jpg",
+    "static/media/resume.pdf": "/edwin/static/media/resume.b95c60d0e13681aa889d.pdf",
+    "index.html": "/edwin/index.html",
+    "main.fc499bf9.css.map": "/edwin/static/css/main.fc499bf9.css.map",
+    "main.6e8dfbeb.js.map": "/edwin/static/js/main.6e8dfbeb.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fc499bf9.css",
+    "static/js/main.6e8dfbeb.js"
+  ]
+}
