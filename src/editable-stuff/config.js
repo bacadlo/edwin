@@ -65,21 +65,37 @@ const repos = {
 
 // Leadership SECTION
 const leadership = {
-  show: false,
+  show: true,
   heading: "Leadership",
   message:
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vitae auctor eu augue ut lectus arcu bibendum at varius. Libero justo laoreet sit amet cursus sit amet. Imperdiet dui accumsan sit amet nulla facilisi morbi. At auctor urna nunc id. Iaculis urna id volutpat lacus laoreet non curabitur gravida. Et magnis dis parturient montes nascetur ridiculus mus mauris. In nisl nisi scelerisque eu ultrices vitae auctor. Mattis nunc sed blandit libero volutpat sed cras ornare. Pulvinar neque laoreet suspendisse interdum consectetur libero.",
+    "I am part of the National Society of Black Engineeers(NSBE), St. Cloud State University chapter. I was the Program and Events Coordinator 2018-2019 and VP 2020-2021. I currently assist with organizing meetings and events as a member. Every other week, we volunteer as tutors for kids in the Math and Reading Club at Promise Neighborhood St. Cloud, MN. ",
   images: [
     { 
-      img: require("../editable-stuff/DoubleEd.jpg"), 
-      label: "First slide label", 
+      img: require("../editable-stuff/NSBE1.jpg"), 
+      label: "NSBE members meeting", 
       paragraph: "Nulla vitae elit libero, a pharetra augue mollis interdum." 
     },
     { 
-      img: require("../editable-stuff/DoubleEd.jpg"), 
-      label: "Second slide label", 
+      img: require("../editable-stuff/NSBE3.jpg"), 
+      label: "NSBE leadership awards, SCSU chapter ", 
       paragraph: "Nulla vitae elit libero, a pharetra augue mollis interdum." 
     },
+    { 
+      img: require("../editable-stuff/NSBE4.jpg"), 
+      label: "NSBE members volunteering to teach at the Math and Reading club", 
+      paragraph: "Nulla vitae elit libero, a pharetra augue mollis interdum." 
+    },
+    { 
+      img: require("../editable-stuff/NSBE7.jpg"), 
+      label: "NSBE member volunteering to teach at the Math and Reading club", 
+      paragraph: "Nulla vitae elit libero, a pharetra augue mollis interdum." 
+    },
+    { 
+      img: require("../editable-stuff/NSBE5.jpg"), 
+      label: "NSBE volunteers at the Math and Reading club", 
+      paragraph: "Nulla vitae elit libero, a pharetra augue mollis interdum." 
+    },
+   
   ],
   imageSize: {
     width:"615",
