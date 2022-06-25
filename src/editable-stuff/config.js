@@ -33,7 +33,7 @@ const mainBody = {
 //b) a link to an hosted image
 //      i.e:profilePictureLink:"www.picturesonline.com/johnDoeFancyAvatar.jpg",
 //c) image in "editable-stuff" directory and use require("") to import here,
-//      i.e: profilePictureLink: require("../editable-stuff/hashirshoaeb.png"),
+//      i.e: profilePictureLink: require("../editable-stuff/johndoe.png"),
 //d) If you do not want any picture to be displayed, just leave it empty :)
 //      i.e: profilePictureLink: "",
 // For Resume either provide link to your resume or import from "editable-stuff" directory
@@ -43,10 +43,10 @@ const mainBody = {
 const about = {
   show: true,
   heading: "About Me",
-  imageLink: require("../editable-stuff/DoubleEd.jpg"),
+  imageLink: require("../editable-stuff/profileImg.jpg"),
   imageSize: 375,
   message:
-    "My name is Edwin Ngoche. I am a Software Engineering major at St. Cloud State University.I enjoy problem solving and passionate about technology with the ability to leverage full-stack knowledge and experience to build interactive websites to scale. I am a quick and hardworking learner open to opportunities to contribute, improve, and learn new skills.",
+    "Hi there, I am a Software Engineering major student at St. Cloud State University.I enjoy problem solving and passionate about technology with the ability to leverage full-stack knowledge and experience to build interactive websites to scale. I am a quick and hardworking learner open to opportunities to contribute, improve, and learn new skills.",
   resume: require("../editable-stuff/resume.pdf"),
 };
 
@@ -134,7 +134,7 @@ const getInTouch = {
   show: true,
   heading: "Get In Touch",
   message:
-    "I'm actively looking for an internship! If you have any questions, or if you just want to say hi, please feel free to email me. Thanks!",
+    "I'm actively looking for an internship. If you have any questions, or if you just want to say hi, please feel free to email me. Thanks!",
     email: "eongoche@go.stcloudstate.edu",
    
   
