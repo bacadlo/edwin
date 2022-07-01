@@ -24,7 +24,7 @@ function Skills({ heading, hardSkills, softSkills }) {
         <h2 ref={skillsTabRef} className="display-4 pb-5 text-center">
           {heading}
         </h2>
-        <Tabs
+        <Tabs 
           className="skills-tabs"
           defaultActiveKey="hard-skills"
           id="skills-tabs"

@@ -7,9 +7,9 @@ const navBar = {
 const mainBody = {
   gradientColors: "#4484ce, #1ad7c0, #ff9b11, #9b59b6, #ff7f7f, #ecf0f1",
   firstName: "Edwin",
-  middleName: "O.",
+  middleName: "",
   lastName: "Ngoche",
-  message: " Passionate about improving society through computer systems. ",
+  message: " Software Engineer passionate about improving society through technology and computer systems. ",
   icons: [
     {
       image: "fa-github",
@@ -43,11 +43,11 @@ const mainBody = {
 const about = {
   show: true,
   heading: "About Me",
-  imageLink: require("../editable-stuff/profileImg.jpg"),
+  imageLink: require("../editable-stuff/dp.jfif"),
   imageSize: 375,
   message:
-    "Hi there, I am a Software Engineering major student at St. Cloud State University.I enjoy problem solving and passionate about technology with the ability to leverage full-stack knowledge and experience to build interactive websites to scale. I am a quick and hardworking learner open to opportunities to contribute, improve, and learn new skills.",
-  resume: require("../editable-stuff/resume.pdf"),
+    "Hi there, I am a Software Engineering major at St. Cloud State University and based in Minnesota, USA. I created my first user application in high school to manage a capentry business' orders, shipments and payments using a relational database. I acquired a passion and calling for developing software that offer solutions and optimize business operations from this. Hence, my pursuit for a degree in Software Engineering. In my journey, I've gathered full-stack software development knowledge and experience to build interactive web applications to scale. I am a quick learner open to opportunities. Please hire me!",
+ // resume: require("../editable-stuff/resume.pdf"),
 };
 
 // PROJECTS SECTION
@@ -59,8 +59,37 @@ const repos = {
   show: true,
   heading: "Recent Projects",
   gitHubUsername: "bacadlo", //i.e."johnDoe12Gh"
-  reposLength: 6,
-  specificRepos: [],
+  reposLength: 0,
+  specificRepos: ["All-Path-Search-Algorithm",  "Concert-Manager", "Buggs-Bunny-Lost-in-Time-Game", "TCP_ClientServer_Chat_Application ", "WhatTalk-1.0.0", "React-Native-Media-Store", ],
+};
+
+
+// SKILLS SECTION
+const skills = {
+  show: true,
+  heading: "Skills",
+  hardSkills: [
+    { name: "C++", value: 90 },
+    { name: "JAVA", value: 80 },
+    { name: "PHP", value: 90 },
+    { name: "MySQL", value: 90 },
+    { name: "JavaScript", value: 90 },
+    { name: "TypeScript", value: 90 },
+    { name: "React.js", value: 90 },
+    { name: "React-Native", value: 90 },
+    { name: "HTML", value: 90 },
+    { name: "CSS/SCSS", value: 90 },
+    { name: "Node.js", value: 90 },
+    { name: "Cloud Computing(GCP)", value: 80 },
+  ],
+  softSkills: [
+    { name: "Team player", value: 90 },
+    { name: "Problem Solving", value: 90 },
+    { name: "Creativity", value: 85 },
+    { name: "Communication", value: 85 },
+    { name: "Critical Thinking", value: 85 },
+    { name: "Empathy", value: 80 },    
+  ],
 };
 
 // Leadership SECTION
@@ -103,39 +132,14 @@ const leadership = {
   }
 };
 
-// SKILLS SECTION
-const skills = {
-  show: true,
-  heading: "Skills",
-  hardSkills: [
-    { name: "C++", value: 80 },
-    { name: "PHP", value: 90 },
-    { name: "MySQL", value: 80 },
-    { name: "JavaScript", value: 90 },
-    { name: "React", value: 90 },
-    { name: "React-Native", value: 90 },
-    { name: "HTML/CSS", value: 99 },
-    { name: "Cloud Computing(GCP)", value: 70 },
-  ],
-  softSkills: [
-    { name: "Problem Solving", value: 90 },
-    { name: "Creativity", value: 85 },
-    { name: "Communication", value: 85 },
-    { name: "Critical Thinking", value: 85 },
-    { name: "Patience", value: 75 },
-    { name: "Empathy", value: 80 },
-    { name: "Organization", value: 90 },
-    { name: "Team player", value: 90 },
-  ],
-};
-
 // GET IN TOUCH SECTION
 const getInTouch = {
   show: true,
   heading: "Get In Touch",
   message:
-    "I'm actively looking for an internship. If you have any questions, or if you just want to say hi, please feel free to email me. Thanks!",
-    email: "eongoche@go.stcloudstate.edu",
+    "Interested in collaborating? Reach out ;) -> " ,
+    email: "eongoche@go.stcloudstate.edu ",
+
    
   
 
